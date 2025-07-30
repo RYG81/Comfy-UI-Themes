@@ -1,0 +1,74 @@
+{
+    "id": "cyberpunk-vibe",
+    "name": "Cyberpunk Vibe",
+    "colors": {
+        "background": "#0B0C10",
+        "foreground": "#C5C6C7",
+        "primary": "#66FCF1",
+        "secondary": "#45A29E",
+        "accent": "#FF66C4",
+        "error": "#FF0000",
+        "warning": "#FFC300",
+        "success": "#00FF00",
+        "link": "#1DB954",
+        "node_slot": "#1F2833",
+        "litegraph_base": "#1F2833",
+        "comfy_base": "#1F2833",
+        "border": "#1F2833",
+        "shadow": "#00000080"
+    },
+    "typography": {
+        "fontFamily": "Orbitron, sans-serif",
+        "fontSize": "16px",
+        "lineHeight": "1.5",
+        "heading": {
+            "fontFamily": "Exo, sans-serif",
+            "fontWeight": "700",
+            "color": "#66FCF1"
+        },
+        "body": {
+            "color": "#C5C6C7"
+        },
+        "link": {
+            "color": "#1DB954",
+            "textDecoration": "none"
+        }
+    },
+    "components": {
+        "button": {
+            "backgroundColor": "#1F2833",
+            "border": "2px solid #66FCF1",
+            "borderRadius": "5px",
+            "color": "#66FCF1",
+            "padding": "10px 20px",
+            "cursor": "pointer",
+            "transition": "background-color 0.3s, border-color 0.3s",
+            ":hover": {
+                "backgroundColor": "#45A29E",
+                "borderColor": "#45A29E"
+            }
+        },
+        "input": {
+            "backgroundColor": "#1A1A1A",
+            "border": "2px solid #45A29E",
+            "borderRadius": "5px",
+            "color": "#C5C6C7",
+            "padding": "8px 12px",
+            "outline": "none"
+        },
+        "card": {
+            "backgroundColor": "#1F2833",
+            "borderRadius": "10px",
+            "padding": "20px",
+            "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.3)"
+        }
+    },
+    "effects": {
+        "glow": {
+            "textShadow": "0 0 5px #66FCF1, 0 0 10px #66FCF1, 0 0 20px #66FCF1"
+        },
+        "neonBorder": {
+            "boxShadow": "0 0 5px #66FCF1, inset 0 0 5px #66FCF1"
+        }
+    }
+}
